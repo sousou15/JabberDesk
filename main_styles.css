@@ -1,0 +1,48 @@
+/* Estilos generales */
+QWidget {
+    background-color: #f0f0f0; /* Color de fondo para todo el widget */
+}
+
+QLabel {
+    font-size: 14px; /* Tamaño de fuente por defecto */
+    margin-bottom: 8px; /* Margen inferior entre etiquetas */
+}
+
+/* Estilos para el título de usuario */
+#username_title {
+    font-size: 24px; /* Tamaño grande para el título de usuario */
+    font-weight: bold; /* Negrita para resaltar */
+    margin-bottom: 16px; /* Mayor margen inferior */
+}
+
+/* Estilos para el cuadro de datos de perfil */
+.profile_box {
+    background-color: white; /* Fondo blanco para el cuadro */
+    padding: 16px; /* Relleno interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para los campos de texto */
+.profile_text {
+    width: 100%; /* Ancho completo */
+    padding: 8px; /* Relleno interno */
+    margin-bottom: 12px; /* Margen inferior */
+    border: 1px solid #ccc; /* Borde delgado gris */
+    border-radius: 4px; /* Bordes redondeados */
+    resize: vertical; /* Permitir redimensionamiento vertical */
+}
+
+/* Estilos para el botón de guardar */
+.save_button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Relleno dentro del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.save_button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón sobre el botón */
+}
